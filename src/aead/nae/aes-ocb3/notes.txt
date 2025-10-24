@@ -1,0 +1,51 @@
+
+1) To learn how to use this code:
+- Read ae.h to see the API.
+- Study the sample main() in ocb.c to see it in use.
+- Read the usage notes and user configuration options in ocb.c
+- Study timing_x86.c for another example.
+
+2) To see performance on your x86 system, compile using a recent gcc
+  gcc -march=native -O3 ocb.c timing_x86.c
+and run the result
+  a.out <MHz of your machine>
+The resulting output shows how many CPU cycles per byte are required to
+encrypt messages of various lengths. (Note: CPU features like Turbo Boost,
+SpeedStep, and multiple cores can affect results. For the most accurate
+results you must turn all of these features off.)
+
+3) The code has been developed primarily under gcc versions 4.4-4.6. It has
+been slightly tested under Microsoft C. Under gcc it uses the builtin
+__builtin_bswap64, which first appeared in gcc 4.3 and was poorly supported
+on many architectures until 4.5. The code also appears to work well under clang
+and icc.
+
+4) For the latest see: http://www.cs.ucdavis.edu/~rogaway/ocb/
+   Send comments and suggestions to Ted Krovetz (ted@krovetz.net)
+
+Change Log
+----------
+
+13-JUL-2011
+
+Updated for Sandy Bridge
+
+30-APR-2012
+
+Added "it" assembly for Thumb ARM assembly.
+See https://github.com/keithw/mosh/issues/86 for impetus.
+
+23-MAY-2012
+
+Made a few spelling corrections suggested by Larry Doolittle on behalf of mosh.
+
+8-SEP-2012
+
+Added constant-time memcmp to avoid potential side-channel attack.
+(Thanks Keegan McAllister for suggesting the fix)
+Added static keyword to non-public functions
+
+12-JUN-2013
+
+Changed internal nonce to correspond with draft-irtf-cfrg-ocb-03 revision.
+128-bit tags do not change from before, but shorter tags do.

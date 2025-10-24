@@ -1,0 +1,17 @@
+          minimum CPU frequency  -  maximum CPU frequency  -  governor
+CPU  0       400000 kHz ( 18 %)  -    2200000 kHz (100 %)  -  performance
+CPU  1       400000 kHz ( 18 %)  -    2200000 kHz (100 %)  -  performance
+CPU  2       400000 kHz ( 18 %)  -    2200000 kHz (100 %)  -  performance
+CPU  3       400000 kHz ( 18 %)  -    2200000 kHz (100 %)  -  performance
+CPU  4       400000 kHz ( 18 %)  -    2200000 kHz (100 %)  -  performance
+CPU  5       400000 kHz ( 18 %)  -    2200000 kHz (100 %)  -  performance
+CPU  6       400000 kHz ( 18 %)  -    2200000 kHz (100 %)  -  performance
+CPU  7       400000 kHz ( 18 %)  -    2200000 kHz (100 %)  -  performance
+CPU  8       400000 kHz ( 25 %)  -    1600000 kHz (100 %)  -  performance
+CPU  9       400000 kHz ( 25 %)  -    1600000 kHz (100 %)  -  performance
+CPU 10       400000 kHz ( 25 %)  -    1600000 kHz (100 %)  -  performance
+CPU 11       400000 kHz ( 25 %)  -    1600000 kHz (100 %)  -  performance
+CPU 12       400000 kHz ( 25 %)  -    1600000 kHz (100 %)  -  performance
+CPU 13       400000 kHz ( 25 %)  -    1600000 kHz (100 %)  -  performance
+CPU 14       400000 kHz ( 25 %)  -    1600000 kHz (100 %)  -  performance
+CPU 15       400000 kHz ( 25 %)  -    1600000 kHz (100 %)  -  performance

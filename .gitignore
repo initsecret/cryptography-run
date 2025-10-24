@@ -1,0 +1,16 @@
+build
+build_debug
+build_release
+.cache
+report.json
+processed-report.json
+data/graphs-img
+data/graphs-tex
+data/graphs-csv
+data/reports/report.json
+
+compile_commands.json
+results.sqlite
+results.sqlite-journal
+
+__pycache__

@@ -1,0 +1,8 @@
+libsodium*
+XKCP
+ascon-c
+boringssl
+boringssl-build
+KeccakTools
+cycle-counter
+libaegis
