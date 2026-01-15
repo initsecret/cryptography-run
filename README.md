@@ -4,8 +4,6 @@
 
 This repository and the implementations therein are for benchmarking only and should not be used elsewhere. 
 
-They *should* be secure, but no promises are made, and this is not vended as a library only as a benchmarking binary.
-
 ## Usage
 
 #### Dependencies
